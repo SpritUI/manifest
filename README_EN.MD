@@ -4,7 +4,7 @@
 
 ## What’s SpritUI?
 
-SpritUI is an open source Android project for old people and students, based on LineageOS and AOSP. 
+SpritUI is an open source Android project for students, based on LineageOS and AOSP. 
 
 ## How to build SpritUI?
 > This guide take Debian (Ubuntu) for example. 
