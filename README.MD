@@ -1,8 +1,10 @@
 **中文｜[English](https://github.com/SpritUI/manifest/blob/sprit-q/README_EN.MD)**
 
 # SpritUI
+> 类原生玩腻了，来尝试下开源定制UI吧！
+
 ## 什么是 SpritUI ？
-SpritUI是一个为学生群体量身打造的开源类原生 Android 项目，基于LineageOS和AOSP。
+SpritUI是一个开源定制UI项目，基于 LineageOS 和 AOSP。
 
 ## 如何编译 SpritUI ？
 > 该向导以 Debian 系 Linux 发行版 Ubuntu 为例
