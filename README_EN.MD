@@ -1,10 +1,11 @@
 **[中文](https://github.com/SpritUI/manifest/blob/sprit-q/README.MD)｜English**
 
 # SpritUI
+> If you are tired with flashing Native Android, try SpritUI.
 
 ## What’s SpritUI?
 
-SpritUI is an open source Android project for students, based on LineageOS and AOSP. 
+SpritUI is an open source Android project, based on LineageOS and AOSP. 
 
 ## How to build SpritUI?
 > This guide take Debian (Ubuntu) for example. 
