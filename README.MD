@@ -1,4 +1,4 @@
-**中文｜[English](https://github.com/SpritUI/manifest/blob/sprit-q/README_EN.md)**
+**中文｜[English](https://github.com/SpritUI/manifest/blob/sprit-q/README_EN.MD)**
 
 # SpritUI
 ## 什么是 SpritUI ？

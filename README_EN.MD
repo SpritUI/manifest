@@ -1,4 +1,4 @@
-**[中文](https://github.com/SpritUI/manifest/blob/sprit-q/README.md)｜English**
+**[中文](https://github.com/SpritUI/manifest/blob/sprit-q/README.MD)｜English**
 
 # SpritUI
 
