@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="spirt"
+           fetch="https://github.com/spirtui"
+           revision="refs/heads/spirt-10" />
+           
+  <!-- AOSP Projects -->
+  <project path="build/make" name="android_build" groups="pdk" remote="spirt" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="android" name="android" remote="spirt" />
+  <project path="spirt/hudson" name="hudson" groups="infra" revision="master" remote="spirt" /> 
+
+  <!-- SpritUI additions-->
+  <project path="external/bash" name="android_external_bash" remote="spirt" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="spirt" />
+
+  <!-- Packages -->
+  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="spirt" />
+  <project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" remote="spirt" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="spirt" />
+  <project path="packages/apps/Dialer" remote="spirt" name="android_packages_apps_Dialer" groups="pdk-fs" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="spirt" />
+  <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="spirt" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="spirt" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="spirt" />
+  <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" groups="pdk-fs" remote="spirt" />
+
+  <!-- System -->
+  <project path="system/core" name="android_system_core" remote="spirt" />
+  <project path="vendor/spirt" name="android_vendor_spirt" remote="spirt" />
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="spirt" />
+
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="spirt" />
+  
+</manifest>
