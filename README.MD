@@ -1,4 +1,5 @@
-**中文｜[English](https://github.com/SpritUI/android/blob/sprit-q/README_EN.md)**
+**中文｜[English](https://github.com/SpritUI/manifest/blob/sprit-q/README_EN.md)**
+
 # SpritUI
 ## 什么是 SpritUI ？
 SpritUI是一个为老人、学生群体量身打造的开源类原生 Android 项目，基于LineageOS和AOSP。

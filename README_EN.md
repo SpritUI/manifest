@@ -1,3 +1,5 @@
+**[中文](https://github.com/SpritUI/manifest/blob/sprit-q/README.md)｜English**
+
 # SpritUI
 
 ## What’s SpritUI?
