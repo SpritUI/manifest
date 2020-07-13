@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="spirt"
-           fetch="https://github.com/spirtui"
-           revision="refs/heads/spirt-10" />
+  <remote  name="sprit"
+           fetch="https://github.com/spritui"
+           revision="refs/heads/sprit-10" />
            
   <!-- AOSP Projects -->
-  <project path="build/make" name="android_build" groups="pdk" remote="spirt" >
+  <project path="build/make" name="android_build" groups="pdk" remote="sprit" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -16,31 +16,31 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="android" name="android" remote="spirt" />
-  <project path="spirt/hudson" name="hudson" groups="infra" revision="master" remote="spirt" /> 
+  <project path="android" name="android" remote="sprit" />
+  <project path="sprit/hudson" name="hudson" groups="infra" revision="master" remote="sprit" /> 
 
   <!-- SpritUI additions-->
-  <project path="external/bash" name="android_external_bash" remote="spirt" />
+  <project path="external/bash" name="android_external_bash" remote="sprit" />
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="android_frameworks_base" remote="spirt" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="sprit" />
 
   <!-- Packages -->
-  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="spirt" />
-  <project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" remote="spirt" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="spirt" />
-  <project path="packages/apps/Dialer" remote="spirt" name="android_packages_apps_Dialer" groups="pdk-fs" />
-  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="spirt" />
-  <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="spirt" />
-  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="spirt" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="spirt" />
-  <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" groups="pdk-fs" remote="spirt" />
+  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="sprit" />
+  <project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" remote="sprit" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="sprit" />
+  <project path="packages/apps/Dialer" remote="sprit" name="android_packages_apps_Dialer" groups="pdk-fs" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="sprit" />
+  <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="sprit" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="sprit" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="sprit" />
+  <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" groups="pdk-fs" remote="sprit" />
 
   <!-- System -->
-  <project path="system/core" name="android_system_core" remote="spirt" />
-  <project path="vendor/spirt" name="android_vendor_spirt" remote="spirt" />
-  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="spirt" />
+  <project path="system/core" name="android_system_core" remote="spirit" />
+  <project path="vendor/sprit" name="android_vendor_sprit" remote="sprit" />
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="sprit" />
 
-  <project path="lineage-sdk" name="android_lineage-sdk" remote="spirt" />
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="sprit" />
   
 </manifest>
