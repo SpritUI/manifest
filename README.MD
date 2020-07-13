@@ -2,7 +2,7 @@
 
 # SpritUI
 ## 什么是 SpritUI ？
-SpritUI是一个为老人、学生群体量身打造的开源类原生 Android 项目，基于LineageOS和AOSP。
+SpritUI是一个为学生群体量身打造的开源类原生 Android 项目，基于LineageOS和AOSP。
 
 ## 如何编译 SpritUI ？
 > 该向导以 Debian 系 Linux 发行版 Ubuntu 为例
